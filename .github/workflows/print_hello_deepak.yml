@@ -1,0 +1,12 @@
+name: My First Github Actions file
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print hello
+        run: echo "Hello Deepak!"
+    
